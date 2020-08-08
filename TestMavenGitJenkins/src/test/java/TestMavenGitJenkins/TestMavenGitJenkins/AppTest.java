@@ -1,8 +1,6 @@
 package TestMavenGitJenkins.TestMavenGitJenkins;
 
-import static org.junit.Assert.assertTrue;
-
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 /**
  * Unit test for simple App.
@@ -15,6 +13,11 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+       System.out.println("First Jenkins Integration completed sucessfully!!");
     }
+	
+	
+//	public static void main(String []args) {
+//		System.out.println("First Jenkins Integration");
+//	}
 }
