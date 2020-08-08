@@ -10,11 +10,11 @@ public class AppTest
     /**
      * Rigorous Test :-)
      */
-//    @Test
-//    public void shouldAnswerWithTrue()
-//    {
-//       System.out.println("First Jenkins Integration completed sucessfully!!");
-//    }
+    @Test
+    public void shouldAnswerWithTrue()
+    {
+       System.out.println("First Jenkins Integration completed sucessfully!!");
+    }
 	
 	
 	public static void main(String []args) {
